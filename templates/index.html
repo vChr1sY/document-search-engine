@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <div class="container">
+
+        <head>
+            <title> RAG App </title>
+            <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+            <h1 class="title">
+                Recall. 
+            </h1>
+            <h2 class="subtitle">
+                The document Q&A tool you'll love.
+            </h2>
+        </head>
+        
+        <body>
+            <form method="post" enctype="multipart/form-data">
+                <input type="file" name = "file">
+                <input type="text" name = "question" placeholder="Ask a question..."> 
+                <button type="submit">Submit</button>
+            </form>
+
+            <div class="content">
+                {{ content }}
+            </div>
+        
+        </body>
+
+    </div>
+</html>
