@@ -8,8 +8,8 @@ client = Groq(
     api_key = os.environ.get("GROQ_API_KEY")
 )
 
-#file_name = input("Enter a file name to load (without .txt)".lower())
-file_name = ("RAG")
+file_name = input("Enter a file name to load (without .txt)".lower())
+
 
 def load_file (file_name):
     while True:
