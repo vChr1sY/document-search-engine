@@ -1,0 +1,1 @@
+An simple RAG (retrieval augmented generation) like system being lightweight and localized built in python. demonstrating the core principles of a RAG pipeline; chunking, keyword-based retrieval, and context-injected LLM generation—without the complexity of heavy vector database dependencies.
